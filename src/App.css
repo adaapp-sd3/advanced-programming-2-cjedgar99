@@ -2,6 +2,11 @@
   text-align: center;
 }
 
+h1, h2, h3, h4, p {
+  padding: 0;
+  margin: 0;
+}
+
 .App h2 {
   font-size: 1.4rem;
 }
@@ -13,7 +18,7 @@
 }
 
 .App-header {
-  background-color: #282c34;
+  background-color: #00aced;
   min-height: 3rem;
   display: flex;
   flex-direction: column;
@@ -23,6 +28,46 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.MarketDashboard, .WeatherDashboard, .FieldDashboard, .FarmerDashboard {
+  width: 80%;
+  margin: 10px auto;
+
+  background-color: #00aced;
+  color: #fff;
+  -webkit-box-shadow: 21px 17px 73px -10px rgba(0,0,0,0.2);
+  -moz-box-shadow: 21px 17px 73px -10px rgba(0,0,0,0.2);
+  box-shadow: 21px 17px 73px -10px rgba(0,0,0,0.2);
+}
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.item {
+  margin: 10px;
+  padding: 10px 15px;
+  background-color: #0084b4;
+}
+
+.btn {
+  border: 2px solid #000080;
+  background: transparent;
+  padding: 5px 15px;
+  margin: 5px;
+  color: white;
+}
+
+.btn:hover {
+  cursor: pointer;
+  background-color: #000080;
+}
+
+.weather-text {
+  margin-bottom: 10px;
+}
+
+.container-item {
+  margin: 10px;
+  padding: 10px 15px;
+  text-align: left;
 }

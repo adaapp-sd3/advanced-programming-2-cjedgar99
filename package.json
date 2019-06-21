@@ -1,7 +1,6 @@
 {
   "name": "ap",
   "version": "0.1.0",
-  "private": true,
   "dependencies": {
     "@types/chai": "^4.1.7",
     "@types/mocha": "^5.2.6",

@@ -12,7 +12,7 @@ class App extends Component {
   state = {
     farmer: new Farmer(),
     farm: new Farm(),
-    market: new Market()
+    market: new Market(),
   }
 
   // allow instances to to tell us when they change
@@ -20,7 +20,6 @@ class App extends Component {
     this.setState(newThing)
   }
 
-  //
   componentDidMount() {
     let sketch = makeFarm(
       this.state.farm,
@@ -39,7 +38,7 @@ class App extends Component {
         <header className="App-header">
           <h2>
             <img src="/img/farmer.png" className="App-logo" alt="logo" />{" "}
-            Dashboard
+            Cameron's farming 2019
           </h2>
         </header>
         <FarmManager farmer={this.state.farmer} farm={this.state.farm} market={this.state.market} />
